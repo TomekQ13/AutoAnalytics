@@ -7,7 +7,7 @@ COPY nginx /etc/nginx/sites-enabled/
 COPY proxy_params /etc/nginx/
 RUN nginx && nginx -s reload
 
-ENV PROJECT_DIR /blog
+ENV PROJECT_DIR /AutoAnalytics
 ENV FLASK_APP run.py
 ENV FLASK_DEBUG 1
 COPY Pipfile Pipfile.lock run.py ${PROJECT_DIR}/
