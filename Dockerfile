@@ -14,5 +14,5 @@ COPY Pipfile Pipfile.lock run.py ${PROJECT_DIR}/
 WORKDIR ${PROJECT_DIR}/
 RUN pipenv install --system --deploy
 
-COPY blog ${PROJECT_DIR}/blog
+COPY AutoAnalytics ${PROJECT_DIR}/AutoAnalytics
 ENTRYPOINT gunicorn -w 3 run:app
