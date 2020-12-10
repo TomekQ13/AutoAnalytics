@@ -1,0 +1,5 @@
+some_column,some_column2,dependent_variable,train_test,LinearRegression,RandomForest
+2,3,4,train,4.0,3.64
+2,2,2,train,2.0,2.69
+3,3,3,train,3.0,3.25
+1,1,5,test,3.47,3.25

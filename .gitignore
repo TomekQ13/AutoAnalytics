@@ -1,11 +1,7 @@
 .vscode
-settings.json
 .db
 .env
 .jpg
 .png
-helper_script.py
-SQLs
-restore_from_backup.sql
 .ipynb_checkpoints
-site.db
+.csv

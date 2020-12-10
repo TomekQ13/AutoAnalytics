@@ -8,16 +8,12 @@ verify_ssl = true
 [packages]
 flask = "*"
 flask-wtf = "*"
-email-validator = "*"
-flask-sqlalchemy = "*"
-flask-bcrypt = "*"
-flask-login = "*"
-pillow = "*"
-flask-mail = "*"
-psycopg2 = "*"
-flask-user = "*"
-python-dotenv = "*"
-gunicorn = "*"
+wtforms = "*"
+pandas = "*"
+sklearn = "*"
+scikit-learn = "*"
+jupyter = "*"
+numpy = "*"
 
 [requires]
 python_version = "3.8"

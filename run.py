@@ -1,4 +1,4 @@
-from blog import create_app
+from AutoAnalytics import create_app
 
 app = create_app()
 
